@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Travel Form</h1>
+    </header>
+    <main>
+        <div>
+            <form name="passengerForm">
+                <div class="input">
+                    <h2>Name</h2>
+                    <input type="text" placeholder="First Name" name="firstName" required>
+                    <input type="text" placeholder="Last Name"  name="lastName" required>
+                    <h2>Age</h2>
+                    <input type="number" placeholder="Age" name="age" min="0" required>
+                    <h2>Gender</h2>
+                    Male: <input type="radio" name="gender" value="male" required>
+                    <br>
+                    Female: <input type="radio" name="gender" value="female" required>
+                    <br>
+                    Other: <input type="radio" name="gender" value="other" required>
+                </div>
+                <div class="input">
+                    <h2>Location</h2>
+                    <select name="city">
+                        <option value="Hong Kong">Hong Kong</option>
+                        <option value="Rome">Rome</option>
+                        <option value="Dubai">Dubai</option>
+                    </select>
+                    <h2>Dietary Restriction</h2>
+                    Vegan<input type="checkbox" name="restriction" value="Vegan">
+                    <br>
+                    Lactose-Free<input type="checkbox" name="restriction" value="Lactose Free">
+                    <br>
+                    Diabetic<input type="checkbox" name="restriction" value="Diabetic">
+                    <br>
+                    None <input type="checkbox" name="restriction" value="None">
+                </div>
+                <div class="input">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h1>Thanks for Flying With Us</h1>
+    </footer>
+<script src="app.js"></script>
+</body>
+</html>
