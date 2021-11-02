@@ -13,3 +13,5 @@ https://jonbarnum.github.io/level_2/array_map_exercise/
 https://jonbarnum.github.io/level_2/array_filter_exercise/
 
 https://jonbarnum.github.io/level_2/array_sort_exercise/
+
+https://jonbarnum.github.io/level_2/array_reduce_exercise/
