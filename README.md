@@ -17,3 +17,5 @@ https://jonbarnum.github.io/level_2/array_sort_exercise/
 https://jonbarnum.github.io/level_2/array_reduce_exercise/
 
 https://jonbarnum.github.io/level_2/multiple_array_methods/
+
+https://jonbarnum.github.io/level_2/catch_me_if_you_can/
