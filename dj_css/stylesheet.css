@@ -1,0 +1,82 @@
+.divBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.boxes{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+#box1{
+    background-color: #BB2020;
+    transition: background-color 1s ease-in-out 500ms;
+    transition: border 1s ease-in-out 500ms;
+}
+
+#box1:hover{
+    background-color: #FFEB4D;
+    border: 10px dashed #06111C;
+}
+
+#box2{
+    background-color: #FEA443;
+    transition: all 2s linear 500ms;
+}
+
+#box2:hover{
+    /* on the border radius, instead of putting 50% do half the width of the box width in px */
+    border-radius: 75px;
+    box-shadow: 10px 15px;
+}
+
+#box3{
+    background-color: #A5AAA3;
+    /* use text-align, vertical-align, and line-height to center word in middle */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    transition: all 2s linear 1s;
+
+}
+
+#box3:hover{
+    width: 250px;
+    height: 250px;
+    font-size: 100px;
+}
+
+#box4{
+    background-color: #812F33;
+    transition: all 500ms ease-in-out 500ms;
+}
+
+#box4:hover{
+    background-color: #F3FEB0;
+    opacity: 0.1;
+}
+
+#box5{
+    background-color: #3B590E;
+    transition: all 2s ease-in 1s;
+}
+
+#box5:hover{
+    box-shadow: 20px 20px 20px;
+    opacity: 0.5;
+    background-color: #F2A649;
+}
+
+#box6{
+    background-color: #F7FF00;
+    transition: all 4s linear 500ms;
+}
+
+#box6:hover{
+    width: 300px;
+    height: 100px;
+    border-radius: 50px 20px;
+    background-color: #3000CC;
+}
