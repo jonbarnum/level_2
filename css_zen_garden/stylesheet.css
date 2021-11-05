@@ -1,0 +1,147 @@
+#header{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    height: 250px;
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/huntington.jpg);
+}
+
+#headerLeft{
+    display: flex;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: span 6;
+}
+
+#enzoImage{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+
+#headerTitle{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 50px;
+}
+
+
+#headerSubTitle{
+    margin: 0px;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#headerRight{
+    display: flex;
+    align-items: center;
+    grid-column-start: 8;
+    grid-column-end: span 3;
+}
+
+#arrowLeft{
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    opacity: .3;
+    border-right: solid black;
+}
+
+#rightHeaderText{
+    font-size: 30px;
+    background-color: white;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    opacity: .3;
+
+}
+
+#arrowRight{
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    opacity: .3;
+    border-left: solid black;
+}
+
+#arrowLeft:hover{
+    opacity: .7;
+    transition: opacity 500ms ease-in-out;
+}
+
+#rightHeaderText:hover{
+    opacity: .7;
+    transition: opacity 500ms ease-in-out;
+}
+
+#arrowRight:hover{
+    opacity: .7;
+    transition: opacity 500ms ease-in-out;
+}
+
+#mainDiv{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    margin: 0px;
+}
+
+#firstBodyDivLeft{
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: span 5;
+    padding-top: 30px;
+}
+
+.firstBodyDivText{
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#icon{
+    width: 25px;
+    height: 25px;
+}
+
+#firstBodyDivRight{
+    display: flex;
+    grid-column-start: 8;
+    grid-column-end: span 3;
+    background-color: rgba(131, 173, 159, 0.418);
+    padding-top: 30px;
+}
+
+.listItems{
+    list-style: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    color: #325050;
+    opacity: .6;
+}
+
+.horizontalLine{
+    width: 300px;
+}
+
+.by{
+    font-style: italic;
+    opacity: .3;
+    font-size: 14px;
+}
+
+.nameOfPerson{
+    text-decoration: none;
+    color: #325050;
+    font-size: 14px;
+    opacity: .6;
+}
+
+.nameOfPerson:hover{
+    opacity: .9;
+    color: #254949;
+}
