@@ -241,6 +241,48 @@
     display: flex;
     grid-column-start: 8;
     grid-column-end: span 3;
-    background-color: rgba(138,188,159,0.5);
+    background-color: rgba(131, 173, 159, 0.418);
+}
+
+.websiteCreator{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    height: 250px;
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/koi.jpg);
+}
+
+.creator{
+    grid-row-start: 2;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.creatorInfo{
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    color: #b6dbdb;
+}
+
+.creatorInfo:hover{
+    border-bottom: 3px solid #b6dbdb;
     ;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #1f3b3b;;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo:hover{
+    opacity: .3;
 }
