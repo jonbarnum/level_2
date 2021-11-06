@@ -93,8 +93,7 @@
 
 .mainDiv{
     display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
-    /* margin: 0px; */
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
 
 .firstBodyDivLeft{
@@ -110,7 +109,6 @@
     font-family: 'Libre Baskerville', serif;
     color: #325050;
 }
-
 
 .icon{
     width: 25px;
@@ -170,7 +168,7 @@
 
 .backgroundMidLevel{
     display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
 
 .midMainBodyLeftDiv{
@@ -190,7 +188,7 @@
     grid-column-start: 1;
     grid-column-end: span 10;
     background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
-    height: 600px;
+    height: 550px;
     background-color: rgba(138,188,159,0.5);
 }
 
@@ -198,4 +196,51 @@
     display: flex;
     grid-column-start: 8;
     grid-column-end: span 3;
+    background-color: rgba(138,188,159,0.6);
+}
+
+.midBodyRightListItems{
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    color: #325050;
+    opacity: .6;
+}
+
+.information{
+    text-decoration: none;
+    color: #325050;
+    font-size: 14px;
+    opacity: .6;
+    padding: 10px;
+    margin: 0;
+}
+
+.informationText{
+    margin: 0px;
+}
+
+.line{
+    border-bottom: 1px dashed;
+    text-decoration: none;
+    color: #325050;
+    ;
+}
+
+.paragraphLinks{
+    text-decoration: none;
+    color: #29a5a5;
+}
+
+.lowerMainBodyLeftDiv{
+    grid-column-start: 2;
+    grid-column-end: span 5;
+}
+
+.lowerMainBodyRightDiv{
+    display: flex;
+    grid-column-start: 8;
+    grid-column-end: span 3;
+    background-color: rgba(138,188,159,0.5);
+    ;
 }
