@@ -353,11 +353,11 @@
         grid-column-end: span 6;
     }
     .peopleNames{
-    position: absolute;
-    right: 0;
-    top: 259px;
-    height: 667px;
-    width: 30%;
+        position: absolute;
+        right: 0;
+        top: 259px;
+        height: 667px;
+        width: 30%;
     }
     .listItems{
         height: 15px;
@@ -374,12 +374,11 @@
         width: auto;
     }
     .infoSection{
-        display: grid;
         position: absolute;
-    right: 0;
-    top: 930px;
-    height: 449px;
-    width: 30%;
+        right: 0;
+        top: 930px;
+        height: 449px;
+        width: 30%;
     }
     .infoSectionDiv{
         grid-column-start: 8;
