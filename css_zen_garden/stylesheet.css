@@ -1,4 +1,396 @@
 .header{
+    height: 250px;
+    width: 100%;
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/huntington.jpg);
+    background-attachment: fixed;
+}
+.enzoImage{
+    width: 150px;
+    height: 150px;
+}
+.headerLeft{
+    display: flex;
+    justify-content: center;
+}
+.headerTitle{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: auto;
+}
+
+
+.headerSubTitle{
+    margin: 0px;
+    color: white;
+    font-style: italic;
+    font-size: auto;
+}
+
+.headerRight{
+    display: flex;
+    justify-content: center;
+}
+
+.arrowLeft{
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    opacity: .3;
+    border-left: solid black;
+    margin: 0px;
+}
+
+.rightHeaderText{
+    font-size: 30px;
+    background-color: white;
+    opacity: .3;
+    margin: 0px;
+}
+
+.arrowRight{
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    opacity: .3;
+    border-left: solid black;
+    margin: 0px;
+}
+
+.arrowLeft:hover{
+    opacity: .7;
+    transition: opacity 500ms ease-in-out;
+}
+
+.rightHeaderText:hover{
+    opacity: .7;
+    transition: opacity 500ms ease-in-out;
+}
+
+.arrowRight:hover{
+    opacity: .7;
+    transition: opacity 500ms ease-in-out;
+}
+.intro{
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    color: #325050;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.iconAndLink{
+    text-decoration: none;
+    color: #325050;
+}
+
+.iconAndLink:hover{
+    background-color: rgba(131, 173, 159, 0.418);
+    transition: background-color 500ms ease-in-out;
+}
+.partication{
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+    height: auto;
+    background-color: rgba(138,188,159,0.5);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    color: #254949;
+}
+.midMainBodyText{
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    color: #254949;
+}
+.line{
+    border-bottom: 1px dashed;
+    text-decoration: none;
+    color: #325050;
+    ;
+}
+
+.paragraphLinks{
+    text-decoration: none;
+    color: #29a5a5;
+}
+.requirements{
+    font-family: 'Libre Baskerville', serif;
+}
+.websiteCreator{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/koi.jpg);
+    background-attachment: fixed;
+}
+.creator{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.creatorInfo{
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    color: #b6dbdb;
+}
+.creatorInfo:hover{
+    border-bottom: 3px solid #b6dbdb;
+    ;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #1f3b3b;;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    margin-top: 30px;
+}
+.logo:hover{
+    opacity: .3;
+}
+.peopleNames{
+    background-color: rgba(187, 199, 190, 0.521);
+}
+.peopleList{
+    margin: 0px;
+}
+.listItems{
+    list-style: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    color: #325050;
+    opacity: .6;
+}
+
+.horizontalLine{
+    width: 100%;
+}
+
+.by{
+    font-style: italic;
+    opacity: .3;
+    font-size: 14px;
+}
+
+.nameOfPerson{
+    text-decoration: none;
+    color: #325050;
+    font-size: 14px;
+    opacity: .6;
+}
+
+.nameOfPerson:hover{
+    opacity: .9;
+    color: #254949;
+    transition: opacity 500ms ease-in-out;
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+}
+.infoSection{
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+    background-color: rgba(138,188,159,0.5);
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.midBodyRightListItems{
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    color: #325050;
+    opacity: .6;
+}
+
+.information{
+    text-decoration: none;
+    color: #325050;
+    font-size: 14px;
+    opacity: .6;
+    padding: 10px;
+    margin: 0;
+}
+
+.informationText{
+    margin: 0px;
+}
+.infoListItems{
+    margin: 0px;
+}
+.horizontalLine{
+    margin: 0px;
+}
+.smallScreenNoLine{
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+    .header{
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+        position: relative;
+    }
+    .headerBackgroundImage{
+        height: 250px;
+        width: 100%;
+        background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/huntington.jpg);
+        position: absolute;
+        background-attachment: fixed;
+    }
+    .headerLeft{
+        display: flex;
+        align-items: center;
+        grid-column-start: 2;
+        grid-column-end: span 6;
+        z-index: 1;
+    }
+    .enzoImage{
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+    
+    
+    .headerTitle{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        color: white;
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: 50px;
+    }
+    
+    
+    .headerSubTitle{
+        margin: 0px;
+        color: white;
+        font-style: italic;
+        font-size: 25px;
+    }
+    
+    .headerRight{
+        display: flex;
+        align-items: center;
+        grid-column-start: 8;
+        grid-column-end: span 3;
+    }
+    
+    .arrowLeft{
+        font-size: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: white;
+        opacity: .3;
+        border-right: solid black;
+    }
+    
+    .rightHeaderText{
+        font-size: 30px;
+        background-color: white;
+        padding-top: 11px;
+        padding-bottom: 12px;
+        opacity: .3;
+    
+    }
+    
+    .arrowRight{
+        font-size: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: white;
+        opacity: .3;
+        border-left: solid black;
+    }
+    
+    .arrowLeft:hover{
+        opacity: .7;
+        transition: opacity 500ms ease-in-out;
+    }
+    
+    .rightHeaderText:hover{
+        opacity: .7;
+        transition: opacity 500ms ease-in-out;
+    }
+    
+    .arrowRight:hover{
+        opacity: .7;
+        transition: opacity 500ms ease-in-out;
+    }
+    .gridContainer{
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+        grid-template-rows: 33% 33% 33%;
+    }
+    .intro{
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    }
+    .introSection{
+        grid-column-start: 2;
+        grid-column-end: span 6;
+    }
+    .partication{
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    }
+    .particationSection{
+        grid-column-start: 2;
+        grid-column-end: span 6;
+    }
+    .requirments{
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    }
+    .requirmentSection{
+        grid-column-start: 2;
+        grid-column-end: span 6;
+    }
+    .peopleNames{
+    position: absolute;
+    right: 0;
+    top: 259px;
+    height: 667px;
+    width: 20%;
+    }
+    .listItems{
+        height: 15px;
+    }
+    .peopleNamesSection{
+        grid-column-start: 8;
+        grid-column-end: span 3;
+    }
+    .person{
+        display: block;
+    }
+    .smallScreenNoLine{
+        display: block;
+        width: auto;
+    }
+    .infoSection{
+        display: grid;
+        position: absolute;
+    right: 0;
+    top: 930px;
+    height: 449px;
+    width: 20%;
+    }
+    .infoSectionDiv{
+        grid-column-start: 8;
+        grid-column-end: span 3;
+    }
+    .info{
+        display: block;
+    }
+}
+
+/* .header{
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
     position: relative;
@@ -189,7 +581,7 @@
     grid-column-start: 1;
     grid-column-end: span 10;
     background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
-    height: 550px;
+    height: auto;
     background-color: rgba(138,188,159,0.5);
 }
 
@@ -289,3 +681,52 @@
 .logo:hover{
     opacity: .3;
 }
+
+@media only screen and (max-width: 768px) {
+    .gridContainer{
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    }
+    .header{
+        position: relative;
+    }
+    .headerBackgroundImage{
+        height: 150px;
+        width: 100%;
+        background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/huntington.jpg);
+        position: absolute;
+        background-attachment: fixed;
+    }
+    .enzoImage{
+        width: 75px;
+        height: 75px;
+    }
+    .headerLeft{
+        display: flex;
+        justify-content: center;
+        grid-column-end: span 10;
+    }
+    .headerTitle{
+        font-size: 16px;
+    }
+    .headerSubTitle{
+        font-size: 14px;
+    }
+    .headerRight{
+        display: flex;
+        justify-content: center;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: span 10;
+    }
+    .arrowLeft{
+        font-size: 20px;    
+    }
+    .arrowRight{
+        font-size: 20px;
+    }
+    .rightHeaderText{
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+} */
