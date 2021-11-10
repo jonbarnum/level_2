@@ -17,7 +17,7 @@ console.log(combinedFruit(['apple', 'pear'], ['cake', 'pie'], ['carrot']))
 
 const vacation = {
     location: 'Burley Idaho',
-    duration: '2 weeks'
+    duration: '2 weeks',
 }
 
 function parseSentece({location, duration}){
@@ -37,21 +37,27 @@ console.log(returnFirst(['computer', 'mouse', 'desktop', 'mousepad']))
 const favoriteActivities = ["magnets", "snowboarding", "philanthropy", "janitor work", "eating"];
 
 function returnFavorites(arr){
-    const [firstFav, secondFav, thirdFav] = favoriteActivities;
+    const [firstFav, secondFav, thirdFav] = arr;
     return `My top three favorite activities are: ${firstFav}, ${secondFav}, and ${thirdFav}`;
 }
 
-console.log(returnFavorites())
+console.log(returnFavorites(favoriteActivities))
+
+
+function combineAnimals(...args) {
+    let arr = [];
+    args.forEach(arg => {
+        arr.push(...arg)
+    });
+    return arr;
+}
 
 const realAnimals = ["dog", "cat", "mouse"];
 const magicalAnimals = ["jackolope"];
 const mysteriousAnimals = ["platypus"];
 
-function combineAnimals() {
-    return [...realAnimals, ...magicalAnimals, ...mysteriousAnimals]
-}
 
-console.log(combineAnimals())
+console.log(combineAnimals(realAnimals, magicalAnimals, mysteriousAnimals))
 
 function product(...numbers) {
     return numbers.reduce(function(acc, number) {
