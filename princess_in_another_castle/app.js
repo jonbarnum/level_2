@@ -16,7 +16,7 @@ const randomRange = () => {
     }
 }
 
-const playInterval = setInterval(randomRange, 1000);
+const playInterval = setInterval(randomRange, 2000);
 
 const randomizer = () => {
     return Math.floor(Math.random() * 2) + 1;
@@ -51,6 +51,7 @@ class Player {
             this.status = 'powered up';
         }else{
             this.hasStar = true;
+            console.log('You Got A Star')
         }
     }
     addCoin = () => {
@@ -60,9 +61,6 @@ class Player {
         console.log(`Name: ${this.name}`);
         console.log(`Total Coins: ${this.totalCoins}`);
         console.log(`Status: ${this.status}`)
-        if(player.hasStar === true){
-            console.log('You got a Star')
-        }
     }
     
 }
