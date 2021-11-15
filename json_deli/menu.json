@@ -1,0 +1,62 @@
+{
+    "appetizers": [
+        {
+            "name": "chips",
+            "ingredients": ["potatoes", "vegetable oil", "barbaeque seasoning", "salt"],
+            "desciption": "barabeque flavored chips"
+        },
+        {
+            "name": "french fries",
+            "ingredients": ["potatoes", "vegetable oil", "salt"],
+            "desciption": "crispy french fries"
+        }
+    ],
+    "cold sandwhiches": [
+        {
+            "name": "ham and cheese",
+            "ingredients": ["ham", "cheese", "lettuce", "tomato", "onion", "pickle"],
+            "desciption": "ham and cheese sandwhich with lettuce, tomato, onion and pickle"
+        },
+        {
+            "name": "turkey",
+            "ingredients": ["turkey", "monzzarella cheese", "lettuce", "cranberry sauce", "tomato"],
+            "desciption": "turkey sandwhich on wheat bread with monzzarella cheese lettuce, tomato and cranberry sauce"
+        }
+    ],
+    "hot sandwhiches": [
+        {
+            "name": "grilled cheese",
+            "ingredients": ["white bread", "american cheese"],
+            "desciption": "classic grilled cheese with white bread and american cheese"
+        },
+        {
+            "name": "chicken avacado panini",
+            "ingredients": ["grilled chicken breast", "avacado", "monzzarella cheese", "tomato"],
+            "desciption": "grilled chicken breast panini sandwhich with avacado, monzzarella cheese and tomato"
+        }
+    ],
+    "desserts": [
+        {
+            "name": "brownie",
+            "ingredients": ["butter", "sugar", "eggs", "cocoa powder", "flour", "salt", "backing powder"],
+            "desription": "a classic brownie, soft and delicious"
+        },
+        {
+            "name": "chocolate chip cookie",
+            "ingredients": ["butter", "sugar", "eggs", "light brown sugar", "flour", "salt", "backing powder", "vanilla extract", "baking soda", "chocolate chips"],
+            "desription": "a classic chocolate chip cookie, soft and delicious"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "milk",
+            "ingredients": ["milk", "chocolate syrup"],
+            "description": "milk or chocolate milk"
+        },
+        {
+            "name": "soda",
+            "ingredients": ["water", "high fructose corn syrup", "flavoring"],
+            "description": "soda of your choice"
+        }
+    ]
+}
