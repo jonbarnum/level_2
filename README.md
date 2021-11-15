@@ -27,3 +27,5 @@ https://jonbarnum.github.io/level_2/css_zen_garden/
 https://jonbarnum.github.io/level_2/es6_practice/
 
 https://jonbarnum.github.io/level_2/slope_style/
+
+https://jonbarnum.github.io/level_2/pokemon_list/
