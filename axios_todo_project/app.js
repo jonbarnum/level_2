@@ -1,6 +1,7 @@
 
 
 const fullListPull = () => {
+    clearList();
     axios.get("https://api.vschool.io/jonbarnum/todo")
     .then(response => {
         const data = response.data;
@@ -16,7 +17,6 @@ const fullListPull = () => {
                 h1.classList.add('todoHeader', 'done');
             }else{
                 h1.classList.add('todoHeader');
-
             }
             div.appendChild(h1);
             
@@ -39,6 +39,7 @@ const fullListPull = () => {
             liEl3.classList.add('listItem')
             liEl3.textContent = `Completed: ${data[i].completed}`;
             div.appendChild(liEl3);
+            deletingTodoButton(div);
         }
     })
     .catch(error => console.log(error));
@@ -94,21 +95,28 @@ const makingCheckBox = (div, todo) => {
     div.appendChild(check);
 }
 
-
-
-
-
-
-
-
-clearList = () => {
-    const el = document.getElementsByClassName('todo')[0];
-    while (el.firstChild){
-        el.remove(el.firstChild);
-    }
+const deletingTodo = function (event){
+    let doingDelete = event.currentTarget;
+    axios.delete(`https://api.vschool.io/jonbarnum/todo/${doingDelete.parentElement.id}`)
+        .then(response => fullListPull(response))
+        .catch(error => console.log(error))
 }
 
+const deletingTodoButton = function(div){
+    const deleteButton = document.createElement('button');
+    deleteButton.classList.add('delete');
+    deleteButton.textContent = 'delete todo';
+    deleteButton.addEventListener('click', deletingTodo);
+    div.appendChild(deleteButton);
+}
 
+clearList = () => {
+    const el = document.querySelector('.todo');
+    el.remove();
+    const newSection = document.createElement('section');
+    newSection.classList.add('todo');
+    document.body.append(newSection);
+}
 
 fullListPull();
 
