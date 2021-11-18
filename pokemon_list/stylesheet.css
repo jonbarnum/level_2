@@ -1,0 +1,17 @@
+body{
+    background-color: #400101;
+}
+
+h1{
+    color: #F20732;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #A60512;
+}
+
+.pokemonNames{
+    background-color: #A69180;
+}

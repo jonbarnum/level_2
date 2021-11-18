@@ -15,6 +15,7 @@ xhr.onreadystatechange = function(){
 function showPokemonData(arr){
     for(let i = 0; i < arr.length; i++){
         const h1 = document.createElement('h1');
+        h1.classList.add('pokemonNames');
         h1.textContent = arr[i].name;
         document.body.appendChild(h1);
     }
